@@ -4,6 +4,10 @@
 
 Resposta ao desafio de código HTML da "Trilha HTML - Dio.me".
 
+### Preview
+
+Previsão do site em [https://iraja-baltezan.github.io/dio-wdp-221102-desafio_site_html_2/](https://iraja-baltezan.github.io/dio-wdp-221102-desafio_site_html_2/index.html)
+
 ## Descrição original
 
 >### Entendo o Desafio
