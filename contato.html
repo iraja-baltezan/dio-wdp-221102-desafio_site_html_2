@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal | iRacional</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <a href="index.html" class="logo-tosco">
+                    <img src="assets/dog-phone-call.gif" alt="Cachorro telefonando." height="160">
+                    <h1>
+                        iRacional<br>
+                        <sup><small>Clínica Veterinária</small></sup>
+                    </h1>
+                </a>
+
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content">
+                <h2>
+                    Contato
+                </h2>
+                <p>
+                    Entre em contato agora:
+                </p>
+                <p>
+                    <img src="assets/telephone.svg" alt="Telefone" height="24" width="24">
+                    Pelo telefone <a target="_blank" href="tel:+551122334455">(11) 2233-4455</a>.
+                </p>
+                <p>
+                    <img src="assets/whatsapp.svg" alt="Whatsapp" height="24" width="24">
+                    Pelo WhatsApp <a target="_blank" href="https://wa.me/551122334455">(11) 2233-4455</a>
+                </p>
+                <p>
+                    <img src="assets/envelope.svg" alt="E-mail" height="24" width="24">
+                    Pelo e-mail
+                    <a target="_blank" href="mailto:contato@verinariairacional.com.br">contato@verinariairacional.com.br</a>
+                </p>
+                <p>
+                    Ou pelo formulário seguinte.
+                </p>
+
+                <h3>
+                    Formulário de contato
+                </h3>
+                <form action="contato.html" method="post">
+                    <fieldset>
+                        <legend>Informações comuns</legend>
+                        <p>
+                            Informações comuns em um formulário de contato.
+                        </p>
+                        <p>
+                            <label>
+                                Assunto:<br>
+                                <input type="text" name="assunto" placeholder="Escreva o assunto da mensagem aqui...">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Seu nome:<br>
+                                <input type="text" name="nome" placeholder="Escreva seu nome aqui...">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Seu e-mail:<br>
+                                <input type="email" name="email" placeholder="Seu endereço de e-mail...">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Em que podemos lhe ajudar?<br>
+                                <textarea name="mensagem" cols="30" rows="10" placeholder="Escreva aqui..."></textarea>
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Alguns campos extras</legend>
+                        <p>
+                            Selecione alguma opção ou arquivo.
+                        </p>
+                        <p>
+                            <label>
+                                Quem espera sempre...<br>
+                                <select name="pegadinha-yeh-yeh">
+                                    <option value="0" selected disabled>Selecione uma opção</option>
+                                    <option value="han">Hã?!</option>
+                                    <option value="alcanca">alcança!</option>
+                                    <option value="cansa">cansa!</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            Quantas patas têm um casal de patos?<br>
+                            <label>
+                                <input type="radio" name="patas" value="1">
+                                1 pata.
+                            </label>
+                            <br>
+                            <label>
+                                <input type="radio" name="patas" value="4">
+                                4 patas.
+                            </label>
+                            <br>
+                            <label>
+                                <input type="radio" name="patas" value="5">
+                                5 patas.
+                            </label>
+                        </p>
+                        <p>
+                            Qual o motivo deste formulário existir?<br>
+                            <label>
+                                <input type="checkbox" name="formulario_pra_q" value="encher-linguica"> só pra encher linguiça
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="formulario_pra_q" value="cumprir-desafio"> cumprir o desafio HTML
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="formulario_pra_q" value="habilidade"> demonstrar incrível habilidade, talento, destreza, etc. com HTML
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="formulario_pra_q" value="todas"> todas as alternativas acima
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="formulario_pra_q" value="nada"> nenhuma das alternativas acima
+                            </label>
+                        </p>
+                        <p>
+                            Envia um arquivo ae!
+                            <br>
+                            Atenção: só arquivos JPEG ou PNG.
+                            <br>
+                            <input type="file" name="arquivinhos" accept="image/jpeg, image/png">
+                        </p>
+                    </fieldset>
+                    <button type="reset">Limpar formulário</button>
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <h3>
+                    Localização
+                </h3>
+                <p>
+                    R. Gingadinho, 33&frac13;, <br>Conj. Hab. Jardim Sao Bento <br>
+                    São Paulo / SP <br> CEP 05886-410
+                </p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.9425249494057!2d-46.7931738!3d-23.678013300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53025b64a5eb%3A0x71bb065df5fa4375!2sR.%20Gingadinho%2C%2033%20-%20Conj.%20Hab.%20Jardim%20Sao%20Bento%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005886-410!5e0!3m2!1spt-BR!2sbr!4v1667873437549!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+
+            <div class="footer">
+                <img src="assets/dog-cartoon-1.png" alt="iRacional - Clínica Veterinária" height="60">
+                <h2>
+                    iRacional<br>
+                    <sup>
+                        <font>Clínica Veterinária</font>
+                    </sup>
+                </h2>
+                <p>
+                    R. Gingadinho, 33&frac13;, <br>Conj. Hab. Jardim Sao Bento <br>
+                    São Paulo / SP <br> CEP 05886-410
+                </p>
+                <p>
+                    <a href="tel:+551122334455">(11) 2233-4455</a>
+                    <a href="mailto:contato@verinariairacional.com.br">contato@verinariairacional.com.br</a>
+                </p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
